@@ -1,0 +1,41 @@
+.class public abstract Lkotlin/coroutines/jvm/internal/DebugProbesKt;
+.super Ljava/lang/Object;
+.source "DebugProbes.kt"
+
+
+# direct methods
+.method public static final probeCoroutineCreated(Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+    .locals 1
+    .param p0, "completion"    # Lkotlin/coroutines/Continuation;
+
+    const-string v0, "completion"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 47
+    return-object p0
+.end method
+
+.method public static final probeCoroutineResumed(Lkotlin/coroutines/Continuation;)V
+    .locals 1
+    .param p0, "frame"    # Lkotlin/coroutines/Continuation;
+
+    const-string v0, "frame"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 66
+    return-void
+.end method
+
+.method public static final probeCoroutineSuspended(Lkotlin/coroutines/Continuation;)V
+    .locals 1
+    .param p0, "frame"    # Lkotlin/coroutines/Continuation;
+
+    const-string v0, "frame"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 82
+    return-void
+.end method

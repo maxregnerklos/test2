@@ -1,0 +1,26 @@
+version: 2.9.3
+apkFileName: app-miniDebug.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 29
+  targetSdkVersion: 33
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 8
+  versionName: 2.03
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: 8
+doNotCompress:
+- classes.dex
+- resources.arsc
+- png
+- jpeg

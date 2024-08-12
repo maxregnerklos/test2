@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#ff1c1b20</color>
+    <color name="netrual_color">#ff111111</color>
+    <color name="system_accent">#ff0288d1</color>
+    <color name="system_accent_2">#ff0288d1</color>
+    <color name="system_accent_darker">#ff01579b</color>
+    <color name="system_accent_soft">#9064b5f6</color>
+</resources>
